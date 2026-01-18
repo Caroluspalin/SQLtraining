@@ -25,3 +25,7 @@ ORDER BY Merkki ASC, Hinta DESC;
 SELECT * FROM autot
 Where Vuosi > 2015 
 ORDER BY Hinta DESC;
+
+SELECT * FROM autot
+Where Malli LIKE 'C%'
+ORDER BY Hinta;
